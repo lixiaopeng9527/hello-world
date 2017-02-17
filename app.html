@@ -3,8 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .header_box {
+            background: -webkit-linear-gradient(90deg, yellow, red);
+            background: -moz-linear-gradient(90deg, yellow, red);
+            background: -o-linear-gradient(90deg, yellow, red);
+            background: linear-gradient(90deg, yellow, red);
+        }
+        .btn{
+            padding:6px 10px;
+            border:1px solid #446d88;
+            background: #58a linear-gradient(#77a0bb,#58a);
+            border-radius: 4px;
+            box-shadow:0 1px 5px grey;
+            color:white;
+            text-shadow: 0 -1px 1px;
+            font-size:20px;
+            line-height:20px;
+        }
+        hr{
+            height:.5em;
+            background:currentColor;
+        }
+        #third{
+            width:100px;
+            height:100px;
+            border:10px  solid hsla(0,0%,100%,.5);
+            background:#ddd;
+        }
+        #four{
+
+        }
+        .somethind-meaningful{
+            background: #655;
+            padding:.8em;
+        }
+        .somethind-meaningful>div{
+            background: tan;
+            border-radius:.8em;
+            padding:1em;
+        }
+        .border{
+            background: tan;
+            border-radius: .8em;
+            padding:1em;
+            box-shadow: 0 0 0 .6em #655;
+            outline: .6em solid #655;
+        }
+        .tiaowen{
+            padding:50px 0px;
+            background:linear-gradient(#fb3 50%,#58a 50%);
+            background-size: 100% 30px;
+        }
+        .tiaowen2{
+            padding:50px 0px;
+            background:linear-gradient(90deg,#fb3 50%,#58a 0);
+            background-size:30px 100%;
+        }
+        .tiaowen3{
+            padding:50px 0px;
+            background:linear-gradient(45deg,#fb3 25%,#58a 0,#58a 50%,#fb3 0,#fb3 75%,#58a 0);
+            background-size:30px 30px;
+        }
+    </style>
 </head>
 <body>
-    <div>这是我的第一个练习的 github  内容</div>
+    <div id="header" class="header_box">这是我的第一个练习的 github  内容</div>
+    <botton class="btn">Yes</botton>
+    <hr/>
+    <div id="third"></div>
+    <div id="four"></div>
+    <div class="somethind-meaningful">
+        <div>
+            i have a nice subtle .
+        </div>
+    </div>
+    <div class="border">
+        i have a nice subtle .
+    </div>
+    <div class="tiaowen"></div>
+    <div class="tiaowen2"></div>
+    <div class="tiaowen3"></div>
 </body>
 </html>
